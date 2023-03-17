@@ -2,6 +2,17 @@
 
 int main() 
 {
-  
-  return 0;
+  int num, count = 0;
+printf("Enter a number divisible by 8: ");
+scanf("%d", &num);
+
+while (num % 8 == 0) 
+  {
+  count++;
+  printf("Valid number.\n Enter another number divisible by 8: ");
+  scanf("%d", &num);
+  }
+
+printf("Invalid Number.\n Number of valid numbers entered: %d", count);
+return 0;
 }
