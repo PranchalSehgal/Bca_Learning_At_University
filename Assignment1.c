@@ -7,7 +7,8 @@ int main()
     printf("Enter the value of N: ");
     scanf("%d", &n);
 
-    for(int i = 1; i <= n; i++) {
+    for(int i = 1; i <= n; i++) 
+    {
         printf("Enter number %d: ", i);
         scanf("%d", &num);
 
@@ -19,8 +20,8 @@ int main()
         {
             neg_count++;
         }
-}
-
+    }
+  
     printf("Total positive numbers: %d\n", pos_count);
     printf("Total negative numbers: %d\n", neg_count);
 
